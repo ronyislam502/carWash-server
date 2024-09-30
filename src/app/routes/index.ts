@@ -1,11 +1,10 @@
 import { Router } from 'express'
 import { UserRoutes } from '../modules/user/user.route'
-import { ServiceRoutes } from '../modules/service/service.route'
 import { AuthRoutes } from '../modules/auth/auth.route'
+import { ServiceRoutes } from '../modules/service/service.route'
 import { SlotRoutes } from '../modules/slot/slot.route'
 import { BookingsRoutes } from '../modules/booking/booking.route'
 import { ReviewRoutes } from '../modules/review/review.route'
-import { PaymentRoutes } from '../modules/payment/payment.route'
 
 const router = Router()
 
@@ -32,7 +31,7 @@ const moduleRoutes = [
   },
   {
     path: '/payment',
-    route: PaymentRoutes,
+    route: PaymentRoute,
   },
   {
     path: '/review',
