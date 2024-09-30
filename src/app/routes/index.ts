@@ -3,8 +3,9 @@ import { UserRoutes } from '../modules/user/user.route'
 import { AuthRoutes } from '../modules/auth/auth.route'
 import { ServiceRoutes } from '../modules/service/service.route'
 import { SlotRoutes } from '../modules/slot/slot.route'
-import { BookingsRoutes } from '../modules/booking/booking.route'
+
 import { ReviewRoutes } from '../modules/review/review.route'
+import { BookingsRoutes } from '../modules/booking/booking.route'
 
 const router = Router()
 
